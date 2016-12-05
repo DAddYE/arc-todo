@@ -26,11 +26,11 @@ Make sure you have `$EDITOR` set up and the default conduit url.
 Add in your `~/.bashrc` or `~/.bash_profile`:
 
 ```bash
-export EDITOR=vim # or subl (if you use sublime) or code if you use vs code.
+export EDITOR=vim # or [1] subl (if you use sublime) or [2] code if you use vs code.
 ```
 
-Setup vscode command: https://code.visualstudio.com/docs/setup/mac
-Setup sublime command: https://www.sublimetext.com/docs/2/osx_command_line.html
+- [1] Setup vscode command: https://code.visualstudio.com/docs/setup/mac
+- [2] Setup sublime command: https://www.sublimetext.com/docs/2/osx_command_line.html
 
 ### Conduit URL
 
