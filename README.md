@@ -4,6 +4,14 @@ arc-todo is a pretty simple app that uses your `$EDITOR` to create maniphests on
 
 ## Setup
 
+### Install
+
+From your command line:
+
+```bash
+go get -u github.com/DAddYE/arc-todo
+```
+
 You just need to set a:
 
 1. Default editor
