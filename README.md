@@ -2,6 +2,8 @@
 
 arc-todo is a pretty simple app that uses your `$EDITOR` to create maniphests on [phabricator](https://www.phacility.com/)
 
+![demo](https://dl.dropboxusercontent.com/u/5747628/arc-todo.gif)
+
 ## Setup
 
 ### Install
