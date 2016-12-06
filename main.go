@@ -21,6 +21,8 @@ Description:
 
 Owner:
 
+CC:
+
 Projects:
 
 Priority:
@@ -32,6 +34,7 @@ var keysToConduit = map[string]string{
 	"title":       "title",
 	"description": "description",
 	"owner":       "ownerPHID",
+	"cc":          "ccPHIDs",
 	"priority":    "priority",
 	"projects":    "projectPHIDs",
 	"points":      "points",
@@ -132,6 +135,15 @@ func main() {
 		}
 
 		data["ownerPHID"] = phids[0]
+	}
+
+	if v, ok := data["ccPHIDs"]; ok {
+		v, ok := v.(string)
+		if !ok {
+			fatalf("owner should be a string")
+		}
+
+		data["ccPHIDs"] = getPHIDs(v, '@')
 	}
 
 	if v, ok := data["projectPHIDs"]; ok {
