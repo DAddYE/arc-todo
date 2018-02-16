@@ -2,8 +2,6 @@
 
 arc-todo is a pretty simple app that uses your `$EDITOR` to create maniphests on [phabricator](https://www.phacility.com/)
 
-![demo](https://dl.dropboxusercontent.com/u/5747628/arc-todo.gif)
-
 ## Setup
 
 ### Install
@@ -29,8 +27,8 @@ Add in your `~/.bashrc` or `~/.bash_profile`:
 export EDITOR=vim # or [1] subl (if you use sublime) or [2] code if you use vs code.
 ```
 
-- [1] Setup vscode command: https://code.visualstudio.com/docs/setup/mac
-- [2] Setup sublime command: https://www.sublimetext.com/docs/2/osx_command_line.html
+* [1] Setup vscode command: https://code.visualstudio.com/docs/setup/mac
+* [2] Setup sublime command: https://www.sublimetext.com/docs/2/osx_command_line.html
 
 ### Conduit URL
 
